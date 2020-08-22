@@ -7,3 +7,5 @@ function nestedTarget() {
  var nestedTarget = document.querySelector('#nested .target')
  return nestedTarget
 }
+
+function deepestChild()
