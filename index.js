@@ -24,7 +24,7 @@ for (let i = 0; i < children.length; i++) {
       }
       
 children = secondList.children
-      start = 12
+      
       for (let i = 0; i < children.length; i++) {
         children[i].innerHTML = parseInt(children[i].innerHTML) - i + n
       }
