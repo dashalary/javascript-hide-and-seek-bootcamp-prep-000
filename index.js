@@ -19,13 +19,13 @@ function increaseRankBy(n) {
       const secondList = rankedLists[1]
       let children = firstList.children
       let start = 1
-for (let i = 0, i < children.length; i++) {
+for (let i = 0; i < children.length; i++) {
         parseInt(children[i].innerHTML).start + i + n
       }
       
 children = secondList.children
       start = 12
-      for (let i = 0, i < children.length; i++) {
+      for (let i = 0; i < children.length; i++) {
         parseInt(children[i].innerHTML).start - i + n
       }
   
